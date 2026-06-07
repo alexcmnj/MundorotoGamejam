@@ -165,6 +165,7 @@ RectTransform:
   - {fileID: 1045022757}
   - {fileID: 2171796197642796338}
   - {fileID: 1432044391203357853}
+  - {fileID: 1920484938}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -380,6 +381,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee718a59cb47f9046b051f21bba02149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PauseManager
+--- !u!114 &1609124968 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2545539921050809763, guid: ec01479865f96194bb5013045cd313e0, type: 3}
+  m_PrefabInstance: {fileID: 2191932615327739444}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Slider
+--- !u!224 &1920484938 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5778825539339130185, guid: ec01479865f96194bb5013045cd313e0, type: 3}
+  m_PrefabInstance: {fileID: 2191932615327739444}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1964078756
 GameObject:
   m_ObjectHideFlags: 0
@@ -652,6 +669,71 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6612411621652562811, guid: 3bf198018cf95a54b94c35d1f45041a0, type: 3}
   m_PrefabInstance: {fileID: 5677526715031208829}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1551585132239821049
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2079886474517251543, guid: aa2a5cd4c3c2e984d9cd5855c5d93a54, type: 3}
+      propertyPath: m_Name
+      value: OxygenSystem
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742662642513556248, guid: aa2a5cd4c3c2e984d9cd5855c5d93a54, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 420.51965
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742662642513556248, guid: aa2a5cd4c3c2e984d9cd5855c5d93a54, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 290.92322
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742662642513556248, guid: aa2a5cd4c3c2e984d9cd5855c5d93a54, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742662642513556248, guid: aa2a5cd4c3c2e984d9cd5855c5d93a54, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742662642513556248, guid: aa2a5cd4c3c2e984d9cd5855c5d93a54, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742662642513556248, guid: aa2a5cd4c3c2e984d9cd5855c5d93a54, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742662642513556248, guid: aa2a5cd4c3c2e984d9cd5855c5d93a54, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742662642513556248, guid: aa2a5cd4c3c2e984d9cd5855c5d93a54, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742662642513556248, guid: aa2a5cd4c3c2e984d9cd5855c5d93a54, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742662642513556248, guid: aa2a5cd4c3c2e984d9cd5855c5d93a54, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029667969683508749, guid: aa2a5cd4c3c2e984d9cd5855c5d93a54, type: 3}
+      propertyPath: sliderOxigeno
+      value: 
+      objectReference: {fileID: 1609124968}
+    - target: {fileID: 5029667969683508749, guid: aa2a5cd4c3c2e984d9cd5855c5d93a54, type: 3}
+      propertyPath: gameOverManager
+      value: 
+      objectReference: {fileID: 867892463}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa2a5cd4c3c2e984d9cd5855c5d93a54, type: 3}
 --- !u!1001 &1670277462720161590
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -718,6 +800,115 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7186839015119948376, guid: ec42747a3def57545a3e9f209658ca9b, type: 3}
   m_PrefabInstance: {fileID: 8922379801465456417}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2191932615327739444
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 403433604}
+    m_Modifications:
+    - target: {fileID: 2521335752096802810, guid: ec01479865f96194bb5013045cd313e0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5778825539339130185, guid: ec01479865f96194bb5013045cd313e0, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5778825539339130185, guid: ec01479865f96194bb5013045cd313e0, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5778825539339130185, guid: ec01479865f96194bb5013045cd313e0, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5778825539339130185, guid: ec01479865f96194bb5013045cd313e0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5778825539339130185, guid: ec01479865f96194bb5013045cd313e0, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5778825539339130185, guid: ec01479865f96194bb5013045cd313e0, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5778825539339130185, guid: ec01479865f96194bb5013045cd313e0, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5778825539339130185, guid: ec01479865f96194bb5013045cd313e0, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5778825539339130185, guid: ec01479865f96194bb5013045cd313e0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5778825539339130185, guid: ec01479865f96194bb5013045cd313e0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5778825539339130185, guid: ec01479865f96194bb5013045cd313e0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5778825539339130185, guid: ec01479865f96194bb5013045cd313e0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5778825539339130185, guid: ec01479865f96194bb5013045cd313e0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5778825539339130185, guid: ec01479865f96194bb5013045cd313e0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5778825539339130185, guid: ec01479865f96194bb5013045cd313e0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5778825539339130185, guid: ec01479865f96194bb5013045cd313e0, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5778825539339130185, guid: ec01479865f96194bb5013045cd313e0, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5778825539339130185, guid: ec01479865f96194bb5013045cd313e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5778825539339130185, guid: ec01479865f96194bb5013045cd313e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5778825539339130185, guid: ec01479865f96194bb5013045cd313e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6432455623444862263, guid: ec01479865f96194bb5013045cd313e0, type: 3}
+      propertyPath: m_Name
+      value: PanelHUD
+      objectReference: {fileID: 0}
+    - target: {fileID: 6432455623444862263, guid: ec01479865f96194bb5013045cd313e0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7142843975744205376, guid: ec01479865f96194bb5013045cd313e0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ec01479865f96194bb5013045cd313e0, type: 3}
 --- !u!1001 &3322638691276479329
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -919,6 +1110,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6131630380915027581, guid: e3255855b758d9141bcd0051da774039, type: 3}
+      propertyPath: m_text
+      value: "El planeta est\xE1 muriendo. Recolecta:\n-> 8 trozos de madera con
+        hojas\n-> 8 rocas doradas\n\nDepos\xEDtalos en el cofre para abrir\nla puerta
+        al siguiente nivel.\n\n   Una vez entregues todo, el cofre revelar\xE1 el
+        cristal amarillo.\n   \xA1No lo olvides, lo necesitar\xE1s en el nivel final!\n\nBusca
+        estaciones de recarga de oxigeno\n  para recargar tu suministro\n\xA1CUIDADO
+        con el ox\xEDgeno!"
+      objectReference: {fileID: 0}
     - target: {fileID: 7341420809651841978, guid: e3255855b758d9141bcd0051da774039, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1106,6 +1306,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1419656869}
+    - target: {fileID: 1874364024856594574, guid: 3bf198018cf95a54b94c35d1f45041a0, type: 3}
+      propertyPath: m_text
+      value: "Has llegado al coraz\xF3n del planeta, las islas flotantes son tu \xFAltimo
+        desaf\xEDo.\n\nEncuentra el cristal azul\nColoca los 3 cristales en los estantes:\n  
+        Cristal Amarillo\n   Cristal Rojo\n   Cristal Azul\n\nCONTROLES ESPECIALES:\n  
+        1, 2, 3 \u2192 Cambiar gravedad\n\nBusca estaciones de recarga de oxigeno\n 
+        para recargar tu suministro\n\xA1\xDALTIMO AVISO: cuida tu ox\xEDgeno!"
+      objectReference: {fileID: 0}
     - target: {fileID: 6612411621652562811, guid: 3bf198018cf95a54b94c35d1f45041a0, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1192,7 +1400,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7131965024839850040, guid: 3bf198018cf95a54b94c35d1f45041a0, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7211469126732771778, guid: 3bf198018cf95a54b94c35d1f45041a0, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1218,6 +1426,10 @@ PrefabInstance:
     - target: {fileID: 2989911815855123321, guid: ec42747a3def57545a3e9f209658ca9b, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3258653488451149685, guid: ec42747a3def57545a3e9f209658ca9b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5982773711778601133, guid: ec42747a3def57545a3e9f209658ca9b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1303,6 +1515,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7468761578455493731, guid: ec42747a3def57545a3e9f209658ca9b, type: 3}
+      propertyPath: m_text
+      value: "Est\xE1s en las cavernas del planeta.\nLa l\xF3gica es tu mejor arma.\n\n
+        Resuelve las adivinanzas, encuentra el c\xF3digo secreto\n Ingr\xE9salo al
+        panel para abrir la puerta al siguiente nivel.\n\nCONTROLES ESPECIALES:\n  
+        1, 2, 3 \u2192 Cambiar gravedad\n\nEncuentra el cristal rojo.\n   \xA1No
+        olvides los cristales anteriores!\n\nBusca estaciones de recarga de oxigeno\n 
+        para recargar tu suministro\n\xA1CUIDADO con el ox\xEDgeno!\n"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1319,3 +1540,4 @@ SceneRoots:
   - {fileID: 1670277462720161590}
   - {fileID: 1346920250221194916}
   - {fileID: 3997405205722110184}
+  - {fileID: 1551585132239821049}

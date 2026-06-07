@@ -14,7 +14,6 @@ public class Romper : MonoBehaviour
 
     public void RecibirDanio(int cantidad)
     {
-        // Sonido de golpe
         if (sonidoGolpe != null)
         {
             AudioSource.PlayClipAtPoint(
@@ -27,10 +26,8 @@ public class Romper : MonoBehaviour
 
         Debug.Log("Golpe al árbol. Vida restante: " + vida);
 
-        // Árbol destruido
         if (vida <= 0)
         {
-            // Sonido de caída
             if (sonidoCaida != null)
             {
                 AudioSource.PlayClipAtPoint(
@@ -39,12 +36,11 @@ public class Romper : MonoBehaviour
                 );
             }
 
-            // Crear madera
             if (maderaPrefab != null)
             {
                 Vector3 offset = new Vector3(
                     Random.Range(-0.2f, 0.2f),
-                    0.5f,
+                    0.2f,
                     Random.Range(-0.2f, 0.2f)
                 );
 
@@ -55,7 +51,6 @@ public class Romper : MonoBehaviour
                 );
             }
 
-            // Destruir árbol
             Destroy(gameObject);
         }
     }

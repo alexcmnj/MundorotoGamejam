@@ -7,14 +7,13 @@ public class Romper_piedra : MonoBehaviour
 
     [Header("Sonidos")]
     public AudioClip sonidoGolpe;
-    public AudioClip sonidoCaida;
+    public AudioClip sonidoRotura;
 
     [Header("Drops")]
-    public GameObject PiedraPrefab;
+    public GameObject piedraPrefab;
 
     public void RecibirDanio(int cantidad)
     {
-        // Sonido de golpe
         if (sonidoGolpe != null)
         {
             AudioSource.PlayClipAtPoint(
@@ -29,25 +28,24 @@ public class Romper_piedra : MonoBehaviour
 
         if (vida <= 0)
         {
-            // Sonido de caída
-            if (sonidoCaida != null)
+            if (sonidoRotura != null)
             {
                 AudioSource.PlayClipAtPoint(
-                    sonidoCaida,
+                    sonidoRotura,
                     transform.position
                 );
             }
 
-            if (PiedraPrefab != null)
+            if (piedraPrefab != null)
             {
                 Vector3 offset = new Vector3(
                     Random.Range(-0.2f, 0.2f),
-                    0.5f,
+                    0.2f,
                     Random.Range(-0.2f, 0.2f)
                 );
 
                 Instantiate(
-                    PiedraPrefab,
+                    piedraPrefab,
                     transform.position + offset,
                     Quaternion.identity
                 );

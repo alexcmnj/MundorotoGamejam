@@ -15,11 +15,22 @@ public class Cae : MonoBehaviour
 
             if (Physics.Raycast(ray, out RaycastHit hit, distancia))
             {
+                // Árbol
                 Romper arbol = hit.collider.GetComponent<Romper>();
 
                 if (arbol != null)
                 {
                     arbol.RecibirDanio(danio);
+                    return;
+                }
+
+                // Piedra
+                Romper_piedra piedra = hit.collider.GetComponent<Romper_piedra>();
+
+                if (piedra != null)
+                {
+                    piedra.RecibirDanio(danio);
+                    return;
                 }
             }
         }

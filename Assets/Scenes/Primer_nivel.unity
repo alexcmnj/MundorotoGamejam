@@ -560,7 +560,7 @@ PrefabInstance:
       addedObject: {fileID: 600756166}
     - targetCorrespondingSourceObject: {fileID: 1813357942169304022, guid: 3dd97330b2ebd884e9f796894e026064, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 600756167}
+      addedObject: {fileID: 600756169}
   m_SourcePrefab: {fileID: 100100000, guid: 3dd97330b2ebd884e9f796894e026064, type: 3}
 --- !u!1 &251036223 stripped
 GameObject:
@@ -743,7 +743,7 @@ PrefabInstance:
       addedObject: {fileID: 926797299}
     - targetCorrespondingSourceObject: {fileID: 1813357942169304022, guid: 3dd97330b2ebd884e9f796894e026064, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 926797302}
+      addedObject: {fileID: 926797304}
   m_SourcePrefab: {fileID: 100100000, guid: 3dd97330b2ebd884e9f796894e026064, type: 3}
 --- !u!1001 &353449461
 PrefabInstance:
@@ -822,7 +822,7 @@ PrefabInstance:
       addedObject: {fileID: 353449463}
     - targetCorrespondingSourceObject: {fileID: 1813357942169304022, guid: 3dd97330b2ebd884e9f796894e026064, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 353449466}
+      addedObject: {fileID: 353449468}
   m_SourcePrefab: {fileID: 100100000, guid: 3dd97330b2ebd884e9f796894e026064, type: 3}
 --- !u!1 &353449462 stripped
 GameObject:
@@ -857,7 +857,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1324489145511453036, guid: 3dd97330b2ebd884e9f796894e026064, type: 3}
   m_PrefabInstance: {fileID: 353449461}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &353449466
+--- !u!114 &353449468
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -866,13 +866,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 353449462}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af19d9912c9a67949933b3781fc38fe6, type: 3}
+  m_Script: {fileID: 11500000, guid: bde313817c96e014d9a4012bb98978a9, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Romper
+  m_EditorClassIdentifier: Assembly-CSharp::Romper_piedra
   vida: 3
   sonidoGolpe: {fileID: 8300000, guid: 7b6c0cfbd49e14f45875be706d58dfc6, type: 3}
-  sonidoCaida: {fileID: 8300000, guid: 534cebded912ad14fb7f7ff8446488bf, type: 3}
-  maderaPrefab: {fileID: 0}
+  sonidoRotura: {fileID: 8300000, guid: 534cebded912ad14fb7f7ff8446488bf, type: 3}
+  piedraPrefab: {fileID: 9118675726366489939, guid: 91002243199b320498b0cac04b1dd3e6, type: 3}
 --- !u!1001 &370998363
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1022,7 +1022,7 @@ PrefabInstance:
       addedObject: {fileID: 1264453604}
     - targetCorrespondingSourceObject: {fileID: 1813357942169304022, guid: 3dd97330b2ebd884e9f796894e026064, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1264453607}
+      addedObject: {fileID: 1264453609}
   m_SourcePrefab: {fileID: 100100000, guid: 3dd97330b2ebd884e9f796894e026064, type: 3}
 --- !u!1 &409206403 stripped
 GameObject:
@@ -1573,7 +1573,7 @@ PrefabInstance:
       addedObject: {fileID: 510730070}
     - targetCorrespondingSourceObject: {fileID: 1813357942169304022, guid: 3dd97330b2ebd884e9f796894e026064, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 510730073}
+      addedObject: {fileID: 510730075}
   m_SourcePrefab: {fileID: 100100000, guid: 3dd97330b2ebd884e9f796894e026064, type: 3}
 --- !u!1 &510730069 stripped
 GameObject:
@@ -1608,7 +1608,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1324489145511453036, guid: 3dd97330b2ebd884e9f796894e026064, type: 3}
   m_PrefabInstance: {fileID: 510730068}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &510730073
+--- !u!114 &510730075
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1617,13 +1617,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 510730069}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af19d9912c9a67949933b3781fc38fe6, type: 3}
+  m_Script: {fileID: 11500000, guid: bde313817c96e014d9a4012bb98978a9, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Romper
+  m_EditorClassIdentifier: Assembly-CSharp::Romper_piedra
   vida: 3
   sonidoGolpe: {fileID: 8300000, guid: 7b6c0cfbd49e14f45875be706d58dfc6, type: 3}
-  sonidoCaida: {fileID: 8300000, guid: 534cebded912ad14fb7f7ff8446488bf, type: 3}
-  maderaPrefab: {fileID: 0}
+  sonidoRotura: {fileID: 8300000, guid: 534cebded912ad14fb7f7ff8446488bf, type: 3}
+  piedraPrefab: {fileID: 9118675726366489939, guid: 91002243199b320498b0cac04b1dd3e6, type: 3}
 --- !u!1001 &539898141
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1953,7 +1953,7 @@ CapsuleCollider:
   m_Height: 0.8
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &600756167
+--- !u!114 &600756169
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1962,13 +1962,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 600756163}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af19d9912c9a67949933b3781fc38fe6, type: 3}
+  m_Script: {fileID: 11500000, guid: bde313817c96e014d9a4012bb98978a9, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Romper
+  m_EditorClassIdentifier: Assembly-CSharp::Romper_piedra
   vida: 3
   sonidoGolpe: {fileID: 8300000, guid: 7b6c0cfbd49e14f45875be706d58dfc6, type: 3}
-  sonidoCaida: {fileID: 8300000, guid: 534cebded912ad14fb7f7ff8446488bf, type: 3}
-  maderaPrefab: {fileID: 0}
+  sonidoRotura: {fileID: 8300000, guid: 534cebded912ad14fb7f7ff8446488bf, type: 3}
+  piedraPrefab: {fileID: 9118675726366489939, guid: 91002243199b320498b0cac04b1dd3e6, type: 3}
 --- !u!1001 &634310213
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2074,7 +2074,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1324489145511453036, guid: 3dd97330b2ebd884e9f796894e026064, type: 3}
   m_PrefabInstance: {fileID: 807612846}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &643484893
+--- !u!114 &643484895
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2083,13 +2083,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 643484889}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af19d9912c9a67949933b3781fc38fe6, type: 3}
+  m_Script: {fileID: 11500000, guid: bde313817c96e014d9a4012bb98978a9, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Romper
+  m_EditorClassIdentifier: Assembly-CSharp::Romper_piedra
   vida: 3
   sonidoGolpe: {fileID: 8300000, guid: 7b6c0cfbd49e14f45875be706d58dfc6, type: 3}
-  sonidoCaida: {fileID: 8300000, guid: 534cebded912ad14fb7f7ff8446488bf, type: 3}
-  maderaPrefab: {fileID: 0}
+  sonidoRotura: {fileID: 8300000, guid: 534cebded912ad14fb7f7ff8446488bf, type: 3}
+  piedraPrefab: {fileID: 9118675726366489939, guid: 91002243199b320498b0cac04b1dd3e6, type: 3}
 --- !u!1 &659477890 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2479184009378418726, guid: b62637568d07eb141b948ab45ea8c3d4, type: 3}
@@ -2310,7 +2310,7 @@ PrefabInstance:
       addedObject: {fileID: 643484890}
     - targetCorrespondingSourceObject: {fileID: 1813357942169304022, guid: 3dd97330b2ebd884e9f796894e026064, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 643484893}
+      addedObject: {fileID: 643484895}
   m_SourcePrefab: {fileID: 100100000, guid: 3dd97330b2ebd884e9f796894e026064, type: 3}
 --- !u!1 &817778253
 GameObject:
@@ -2552,7 +2552,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1324489145511453036, guid: 3dd97330b2ebd884e9f796894e026064, type: 3}
   m_PrefabInstance: {fileID: 310440444}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &926797302
+--- !u!114 &926797304
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2561,13 +2561,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 926797298}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af19d9912c9a67949933b3781fc38fe6, type: 3}
+  m_Script: {fileID: 11500000, guid: bde313817c96e014d9a4012bb98978a9, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Romper
+  m_EditorClassIdentifier: Assembly-CSharp::Romper_piedra
   vida: 3
   sonidoGolpe: {fileID: 8300000, guid: 7b6c0cfbd49e14f45875be706d58dfc6, type: 3}
-  sonidoCaida: {fileID: 8300000, guid: 534cebded912ad14fb7f7ff8446488bf, type: 3}
-  maderaPrefab: {fileID: 0}
+  sonidoRotura: {fileID: 8300000, guid: 534cebded912ad14fb7f7ff8446488bf, type: 3}
+  piedraPrefab: {fileID: 9118675726366489939, guid: 91002243199b320498b0cac04b1dd3e6, type: 3}
 --- !u!1001 &947448984
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2850,7 +2850,7 @@ PrefabInstance:
       addedObject: {fileID: 1162645354}
     - targetCorrespondingSourceObject: {fileID: 1813357942169304022, guid: 3dd97330b2ebd884e9f796894e026064, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1162645357}
+      addedObject: {fileID: 1162645359}
   m_SourcePrefab: {fileID: 100100000, guid: 3dd97330b2ebd884e9f796894e026064, type: 3}
 --- !u!1 &1006711275 stripped
 GameObject:
@@ -3084,7 +3084,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1324489145511453036, guid: 3dd97330b2ebd884e9f796894e026064, type: 3}
   m_PrefabInstance: {fileID: 998709603}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1162645357
+--- !u!114 &1162645359
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3093,13 +3093,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1162645353}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af19d9912c9a67949933b3781fc38fe6, type: 3}
+  m_Script: {fileID: 11500000, guid: bde313817c96e014d9a4012bb98978a9, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Romper
+  m_EditorClassIdentifier: Assembly-CSharp::Romper_piedra
   vida: 3
   sonidoGolpe: {fileID: 8300000, guid: 7b6c0cfbd49e14f45875be706d58dfc6, type: 3}
-  sonidoCaida: {fileID: 8300000, guid: 534cebded912ad14fb7f7ff8446488bf, type: 3}
-  maderaPrefab: {fileID: 0}
+  sonidoRotura: {fileID: 8300000, guid: 534cebded912ad14fb7f7ff8446488bf, type: 3}
+  piedraPrefab: {fileID: 9118675726366489939, guid: 91002243199b320498b0cac04b1dd3e6, type: 3}
 --- !u!4 &1177065561 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7507501101374053384, guid: 516f5b8c780f050499e83e3e45588ae9, type: 3}
@@ -3257,7 +3257,7 @@ PrefabInstance:
       addedObject: {fileID: 2124996244}
     - targetCorrespondingSourceObject: {fileID: 1813357942169304022, guid: 3dd97330b2ebd884e9f796894e026064, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2124996247}
+      addedObject: {fileID: 2124996249}
   m_SourcePrefab: {fileID: 100100000, guid: 3dd97330b2ebd884e9f796894e026064, type: 3}
 --- !u!1 &1217136760 stripped
 GameObject:
@@ -3413,7 +3413,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1324489145511453036, guid: 3dd97330b2ebd884e9f796894e026064, type: 3}
   m_PrefabInstance: {fileID: 391113207}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1264453607
+--- !u!114 &1264453609
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3422,13 +3422,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1264453603}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af19d9912c9a67949933b3781fc38fe6, type: 3}
+  m_Script: {fileID: 11500000, guid: bde313817c96e014d9a4012bb98978a9, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Romper
+  m_EditorClassIdentifier: Assembly-CSharp::Romper_piedra
   vida: 3
   sonidoGolpe: {fileID: 8300000, guid: 7b6c0cfbd49e14f45875be706d58dfc6, type: 3}
-  sonidoCaida: {fileID: 8300000, guid: 534cebded912ad14fb7f7ff8446488bf, type: 3}
-  maderaPrefab: {fileID: 0}
+  sonidoRotura: {fileID: 8300000, guid: 534cebded912ad14fb7f7ff8446488bf, type: 3}
+  piedraPrefab: {fileID: 9118675726366489939, guid: 91002243199b320498b0cac04b1dd3e6, type: 3}
 --- !u!1001 &1272593225
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5127,6 +5127,37 @@ Transform:
   - {fileID: 1177065561}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2038561031
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2038561032}
+  m_Layer: 0
+  m_Name: SpawnGema
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2038561032
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038561031}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 105.524, y: 0.858, z: 117}
+  m_LocalScale: {x: 5.2921, y: 5.2921, z: 5.2921}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2054470888
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5233,7 +5264,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1324489145511453036, guid: 3dd97330b2ebd884e9f796894e026064, type: 3}
   m_PrefabInstance: {fileID: 1216585715}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2124996247
+--- !u!114 &2124996249
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5242,13 +5273,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 2124996243}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af19d9912c9a67949933b3781fc38fe6, type: 3}
+  m_Script: {fileID: 11500000, guid: bde313817c96e014d9a4012bb98978a9, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Romper
+  m_EditorClassIdentifier: Assembly-CSharp::Romper_piedra
   vida: 3
   sonidoGolpe: {fileID: 8300000, guid: 7b6c0cfbd49e14f45875be706d58dfc6, type: 3}
-  sonidoCaida: {fileID: 8300000, guid: 534cebded912ad14fb7f7ff8446488bf, type: 3}
-  maderaPrefab: {fileID: 0}
+  sonidoRotura: {fileID: 8300000, guid: 534cebded912ad14fb7f7ff8446488bf, type: 3}
+  piedraPrefab: {fileID: 9118675726366489939, guid: 91002243199b320498b0cac04b1dd3e6, type: 3}
 --- !u!1 &2145170489 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2479184009378418726, guid: b62637568d07eb141b948ab45ea8c3d4, type: 3}
@@ -5298,6 +5329,67 @@ MonoBehaviour:
   sonidoGolpe: {fileID: 8300000, guid: c52db2640d18ef94499d26c5b01c5316, type: 3}
   sonidoCaida: {fileID: 8300000, guid: 8abe5e1883ebba84d905d35c4f3beab5, type: 3}
   maderaPrefab: {fileID: 107365441726673257, guid: dea98459a31c07f40a8e2e027ed7ae10, type: 3}
+--- !u!1001 &6049417203377092876
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1283531853149527173, guid: 48b7d93dd8ccc2c4e85f8cb47a6938c5, type: 3}
+      propertyPath: m_Name
+      value: Cofre 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1917361117560047167, guid: 48b7d93dd8ccc2c4e85f8cb47a6938c5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 106.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1917361117560047167, guid: 48b7d93dd8ccc2c4e85f8cb47a6938c5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.021
+      objectReference: {fileID: 0}
+    - target: {fileID: 1917361117560047167, guid: 48b7d93dd8ccc2c4e85f8cb47a6938c5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 116.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 1917361117560047167, guid: 48b7d93dd8ccc2c4e85f8cb47a6938c5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.008021361
+      objectReference: {fileID: 0}
+    - target: {fileID: 1917361117560047167, guid: 48b7d93dd8ccc2c4e85f8cb47a6938c5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1917361117560047167, guid: 48b7d93dd8ccc2c4e85f8cb47a6938c5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9999679
+      objectReference: {fileID: 0}
+    - target: {fileID: 1917361117560047167, guid: 48b7d93dd8ccc2c4e85f8cb47a6938c5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1917361117560047167, guid: 48b7d93dd8ccc2c4e85f8cb47a6938c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1917361117560047167, guid: 48b7d93dd8ccc2c4e85f8cb47a6938c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -179.081
+      objectReference: {fileID: 0}
+    - target: {fileID: 1917361117560047167, guid: 48b7d93dd8ccc2c4e85f8cb47a6938c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2306262916631239291, guid: 48b7d93dd8ccc2c4e85f8cb47a6938c5, type: 3}
+      propertyPath: spawnGema
+      value: 
+      objectReference: {fileID: 2038561032}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 48b7d93dd8ccc2c4e85f8cb47a6938c5, type: 3}
 --- !u!1001 &6943734818488143337
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5366,3 +5458,5 @@ SceneRoots:
   - {fileID: 2030815539}
   - {fileID: 80795472}
   - {fileID: 1658626084}
+  - {fileID: 6049417203377092876}
+  - {fileID: 2038561032}
